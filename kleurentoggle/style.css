@@ -1,0 +1,75 @@
+li{
+    color:black;
+    list-style-type: none;
+    padding: 20px;
+    border-color: black;
+    border-width:2px;
+    border-style:solid;
+    width: 50px;
+    text-align:center;
+    
+}
+
+#achtergrondNormaal {
+  background-color: pink;
+}
+.achtergrondBlauw {
+  background-color: blue;
+}
+
+.achtergrondRood {
+  background-color: red;
+}
+
+.achtergrondGeel {
+  background-color: yellow;
+}
+
+.achtergrondGroen {
+  background-color: green;
+}
+ul{
+    margin:0;
+}
+
+#geel {
+    background-color: yellow;
+    cursor:pointer;
+}
+
+#groen {
+    background-color: green;
+    cursor:pointer;
+}
+
+#blauw {
+    background-color: blue;
+    cursor:pointer;
+}
+
+#rood {
+    background-color: red;
+    cursor:pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    overflow: auto;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  button {
+    cursor:pointer;
+  }
+
+
